@@ -1,71 +1,225 @@
-# Getting Started with Create React App
-This is a simple web application that create a React front-end with a Rails back-end, connecting them to display a random message.
+<!-- TABLE OF CONTENTS -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-In the project directory, you can run:
+<!-- PROJECT DESCRIPTION -->
 
-### `npm start`
+# Frontend_Hello_Rails_React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> This is a project to learn how to use React with Rails by Implementing a connection between a Ruby on Rails back-end and React front-end. This project contains the fronted part of it.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Hello react rails** is a simple web app to test working with rails and react in a fullstack web devevelopment project.
 
-### `npm test`
+## 🛠 Built With <a name="built-with"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run build`
+> These are technologies that I used.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-### `npm run eject`
+<!-- Features -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Key Features <a name="key-features"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Describe between 1-3 key features of the application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **This app has API end points**
+- **It fetches from the API and renders the data**
+- **It renders random greetings on refreshing and navigating to the './     message**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
+<!-- LIVE DEMO -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Live Demo <a name="live-demo"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- GETTING STARTED -->
 
-### Analyzing the Bundle Size
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> Describe how a new developer could make use of your project.
 
-### Making a Progressive Web App
+To get a local clone the repository https://github.com/Eternalgratis/hello-react-front-end.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Prerequisites
 
-### Advanced Configuration
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Ruby
+- Postgresql
+- Node.js
+- Yarn
+- Rails
 
-### Deployment
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Clone this repository to your desired folder:
+$ git clone
 
-### `npm run build` fails to minify
+https://github.com/Eternalgratis/hello-react-front-end.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Link to backend repository
+   https://github.com/Eternalgratis/hello-rails-back-end
+
+#### Link to backend repository pull request
+
+### Install
+
+` Navigate to the created folder.
+
+    - Initialize your project with Git.
+    - Make sure that your project has Postgres database set up.
+    - Run rails server and visi thttp://127.0.0.1:3000/ in your browser!
+     - git@github.com:Eternalgratis/hello-react-front-end.git  
+       
+     - cd frontend_hello_rails_react
+     - npm install
+     - npm start
+     
+
+    ### run the following in your terminal:
+    - gem install rails
+    - gem install pg
+    - bundle install (use this whenever you want add a gem in your gem file)
+    - rails db:create
+    - change your database password to suit yours in database.yml `
+
+
+
+    To check linters locally, use
+
+    `$ rubocop`
+    `$ npx stylelint "**/*.{css,scss}"`
+    Once you have the project correctly set up, run
+
+    `$ bin/rails db:setup`
+
+
+### Usage
+--Once you have your repository cloned on your machine, feel free to modify it as needed.
+- To add your own page
+
+- To run the project, execute the following command:
+`rails s`
+
+- Add the following endpoint inorder to view the api with all greetings 
+`api/v1/greetings`
+
+- Add the following endpoint inorder to view the api with all greetings 
+`api/v1/greetings/:id`
+
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **Apuabi Titilope**
+
+- GitHub: [@Eternalgratis](https://github.com/Eternalgratis)
+- Twitter: [@eternalgratis](https://twitter.com/eternalgratis)
+- LinkedIn: [Apuabi Titilope](https://www.linkedin.com/in/titilope-apuabi/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+ Acknowledgement to all used sources  e.g stackoverflow for debugging
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Acknowledgement to all used sources  e.g stackoverflow for debuggin
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+
+#### [Question_1] Do I need to have a program to manage the database. 
+
+##### [Answer_1] Yes you need postgesql or sqllite ,check installation online.
+
+#### [Question_2] Can I access the owner database .
+
+##### [Answer_2]No because its on their local database .
+
+##### [Question_3] Does this app need 2 repositories.
+
+##### [Answer_3] [No, this is a one repository frontend and backend app]
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
